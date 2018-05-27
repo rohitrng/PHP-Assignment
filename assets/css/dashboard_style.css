@@ -1,0 +1,725 @@
+@charset "utf-8";
+/* CSS Document */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+	display: block
+}
+audio, canvas, video {
+	display: inline-block
+}
+audio:not([controls]) {
+	display: none;
+	height: 0
+}
+[hidden] {
+	display: none
+}
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+body {
+	margin: 0
+}
+a:focus {
+	outline: none
+}
+a:active, a:hover {
+	outline: 0;
+	text-decoration: none
+}
+h1 {
+	font-size: 2em
+}
+abbr[title] {
+	border-bottom: 1px dotted
+}
+b, strong {
+	font-weight: 700
+}
+dfn {
+	font-style: italic
+}
+mark {
+	background: #ff0;
+	color: #000
+}
+code, kbd, pre, samp {
+	font-family: monospace, serif;
+	font-size: 1em
+}
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word
+}
+q {
+	quotes: "\201C" "\201D" "\2018" "\2019"
+}
+small {
+	font-size: 80%
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
+}
+sup {
+	top: -.5em
+}
+sub {
+	bottom: -.25em
+}
+img {
+	border: 0;
+	outline: none
+}
+svg:not(:root) {
+	overflow: hidden
+}
+figure {
+	margin: 0
+}
+fieldset {
+	border: 1px solid silver;
+	margin: 0 2px;
+	padding: .35em .625em .75em
+}
+legend {
+	border: 0;
+	padding: 0
+}
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0;
+	outline: 0
+}
+button, input {
+	line-height: normal
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer
+}
+button[disabled], input[disabled] {
+	cursor: default
+}
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0
+}
+input[type="search"] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box
+}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+-webkit-appearance:none
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+border:0;
+padding:0
+}
+textarea {
+	overflow: auto;
+	vertical-align: top
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+a {
+	text-decoration: none;
+	outline: none;
+	color: #fff
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+ul li {
+	margin: 0;
+	padding: 0
+}
+.alignCenter {
+	text-align: center
+}
+body {
+	background: #fff;
+	font-size: 100%;
+	font-weight: 400;
+	color: #1b1a1a;
+	height: 100%;
+	
+}
+.clear, .after {
+	clear: both
+}
+.clear:after, .after:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0
+}
+* html .clear, * html .after {
+	zoom: 1;
+	clear: both;
+	font-size: 1px!important;
+	line-height: 1px!important
+}
+:first-child+html .clear, :first-child+html .after {
+	zoom: 1;
+	clear: both;
+	font-size: 1px!important;
+	line-height: 1px!important
+}
+img {
+	border: 0 none
+}
+.toRight {
+	float: right!important
+}
+.toLeft {
+	float: left!important
+}
+.toCenter {
+	float: none!important;
+	display: block;
+	margin: 0 auto
+}
+.noPadTop {
+	padding-top: 0!important
+}
+html, body {
+	min-height: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	width: 100%;
+}
+* {
+	margin: 0;
+	padding: 0
+}
+
+.lefta{text-align: center; pointer-events: 2em;}
+h3{color: #959595; font-family: 'ClanLF-Medium'; font-weight: normal;}
+h3 a{color: #959595; float: right; font-size: 0.8em;}
+
+.fbPost{padding: 3em 0;}
+.fbPost img{float: left; width: 19%; margin-right: 0.5%;}
+.dashboardlogincol30 p{color:#959595; padding: 2em 0 0 0; font-size: 0.9em; line-height: 1.5em;}
+#logout{text-decoration: underline; color: #00b0a5;}
+
+.dashboardlogincol30.adminWrapper{width: 90%; padding: 0 5%; position: relative; float: none; margin: 0 auto;}
+.dashboardloginWrapper.adminBx{display: block; background: #fff;}
+.dashboardlogincol30.adminWrapper table{margin: 2em 0;}
+.dashboardlogincol30.adminWrapper table tr th{background: #999; padding: 0.5em;}
+.dashboardlogincol30.adminWrapper table tr td{padding: 0.5em; border: 1px solid #eee;}
+.dashboardlogincol30.adminWrapper table tr td a{color: #00b0a5; font-size: 0.9em; text-decoration: underline;}
+.dashboardlogincol30.adminWrapper table tr:nth-child(odd) td{background: #eee;}
+.dashboardlogincol30.adminWrapper .searchUser{width:calc(45% - 2px);height:auto;margin:0 auto;text-align:left;border:1px solid #959595;min-height: calc(2em - 2px);color:#959595;padding-left:1%; margin-top: 2em;}
+.dashboardlogincol30.adminWrapper .filterBy{text-align: right;}
+.dashboardlogincol30.adminWrapper .filterBy input{width:calc(25% - 2px);height:auto;margin:0 auto;text-align:left;border:1px solid #959595;min-height: calc(2em - 2px);color:#959595;padding-left:1%; margin-top: 2em;}
+
+.toLeftSearch{float: left; width: 50%;}
+.toRight{float: right;}
+@font-face {
+	font-family: 'ClanLF-Book';
+	src: url('../fonts/ClanLF-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/ClanLF-Book.woff') format('woff'), url('../fonts/ClanLF-Book.ttf') format('truetype'), url('../fonts/ClanLF-Book.svg#ClanLF-Book') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ClanLF-Medium';
+	src: url('../fonts/ClanLF-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/ClanLF-Medium.otf') format('opentype'),  url('../fonts/ClanLF-Medium.woff') format('woff'),  url('../fonts/ClanLF-Medium.ttf') format('truetype'),  url('../fonts/ClanLF-Medium.svg#ClanLF-Medium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.dashboardmainWrapper, .dashboardheaderWrapper, .dashboardcontactWrapper, .dashboard-col-100, .dashboardlogoWrapper, .dashboarddetailWrapper, .dashboard-zone-list, .dasboard_footer, .dashboardloginWrapper
+{
+	width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.dashboardcenterWrapper
+{
+	width:90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dashboard_info
+{
+	margin: 1.2% 0 1% 0;
+    float: right;
+}
+.dashboard_info li
+{
+	display: inline-block;
+    font-family: 'ClanLF-Book';
+    font-size: 1em;
+    font-weight: normal;
+	text-align: center;
+}
+.dashboard-dropbtn{
+    background-color: #26b5a7;
+    color: white;
+    padding: 0.5em;.
+    font-size: 1em;
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    width:180px;
+    background: url(../images/carot.png) no-repeat center right #26b5a7;
+    background-size: 7%;
+    background-position: 96% 58%;
+}
+.dashboard-dropbtn img{
+	width: 10%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+   padding: 0 0 0 2%;
+    float: left;
+}
+.dashboard-carot {
+    position: absolute;
+    top: 1%;
+    background-image: url(images/carot.png);
+    right: 0;
+}
+.dashboardborder
+{
+	width:100%;
+	height:2px;
+	background-color: #f5f5f5;
+    margin: 0 auto;
+    text-align: center;
+}
+.dashboardlogoWrapper img
+{
+	width:15%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    display:block;
+	float:left;
+	padding: 0.5em 0;
+}
+.dashboard-logo
+{
+	width:100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+	float:left;
+	padding: 1em 0;
+}
+.dashboard-menu
+{
+	width:68%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+/*.dashboard-col-100:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}*/
+
+.dashboard_img
+{
+	width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+	padding: 2em;
+}
+.dasboard-footer-col-50
+{
+	width: 50%;
+    height: auto;
+    margin: 0% auto;
+    text-align: center;
+    float: left;
+    color: #656565;
+}
+.dasboard_connect_text {
+    font-family: 'ClanLF-Book';
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: right;
+    color: #9d9d9d;
+}
+.dasboard_social_nw
+{
+	text-align: left;
+    margin: 1.5% 0;
+	list-style: none;
+}
+.dasboard_social_nw .fa-lg {
+    font-size: 1.5em;
+    color: #9e9d9d;
+}
+.dasboard_social_nw li {
+    display: inline-block;
+    padding: 1%;
+    color: #9d9d9d;
+}
+.dasboard_copyright_menu {
+    text-align: right;
+    margin: 1.5% 0;
+	font-size: 0.9em;
+}
+.dasboard_copyright_menu li a {
+    color: #9d9d9d;
+}
+.dasboard_copyright_menu li {
+    display: inline-block;
+    padding: 1%;
+    color: #9d9d9d;
+	font-family: 'ClanLF-Book';
+    font-size: 1em;
+    font-weight: normal;
+}
+.dashboardloginWrapper
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position: fixed;
+	top: 0%;
+	background: url(../images/login-bg.jpg) no-repeat top left #f5f5f5;
+	background-size: cover;
+}
+.dashboardlogincol70
+{
+	width:70%;
+	height:auto;
+	margin:0 auto;
+	text-align: center;
+	float:left;
+}
+.dashboardlogincol30
+{
+	width:30%;
+	margin:0 auto;
+	text-align:left;
+	float:right;
+	background-color: #fff;
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+	overflow-y: auto;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+	padding: 0 2em 0 2em;
+}
+
+.dashboardlogincol30 form{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	text-align:center;
+}
+
+.dashboardlogin_form
+{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	text-align: center;
+}
+
+.dashboardlogin_form .dashboard_form_row{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+    padding:0.5em 0 0.5em 0;
+}
+.dashboardlogin_form label
+{
+	font-family: 'ClanLF-Medium';
+    font-size: .9em;
+    font-weight: normal;
+    text-align: left;
+    color: #959595;
+    display: block;
+    padding: 0 5em 0.5em 0;
+}
+.dashboardlogin_form .forgot_pas
+{
+	font-family: 'ClanLF-Medium';
+    font-size: .9em;
+    font-weight: normal;
+    text-align: right;
+    color: #959595;
+    display: block;
+    padding: 0.5em 5.2em 0.5em 0;
+	text-decoration: underline;
+}
+.notuserlink
+{
+	text-decoration: underline;
+}
+.dashboardlogin_form .forgot_pas a
+{
+	 color: #959595;
+}
+.dashboardlogincol30 .dashboardlogin_form .dashboardinput
+{
+	border: 1px solid #959595;
+	padding: 0.5em;
+	color:#959595;
+	width:80%;
+}
+.dashboardlogincol30 .dashboardlogin_form .dashboardpassword
+{
+	border:  1px solid #959595;
+	padding: 0.5em;
+	width:80%;
+}
+.dashboard_btn
+{
+	width:50%;
+	background-color: #00b0a5;
+	border: 0px;
+    padding: 0.8em 0;
+    font-family: 'ClanLF-Medium';
+    font-size: 1em;
+    font-weight: normal;
+	color:#fff;
+	text-transform: uppercase;
+}
+.dashboard_btn_go
+{
+	width:50%;
+	background-color: #00b0a5;
+	border: 0px;
+    padding: 0.8em 0;
+    font-family: 'ClanLF-Medium';
+    font-size: 1em;
+    font-weight: normal;
+	color:#fff;
+	text-transform: uppercase;
+}
+.loadMoreBtn
+{
+	width:120px;
+	background-color: #00b0a5;
+	border: 0px;
+    padding: 0.7em 1em;
+    font-family: 'ClanLF-Book';
+    font-size: 0.9em;
+    font-weight: normal;
+	color:#fff;
+	text-transform: uppercase;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	border-radius: 10px;
+}
+.btnStyle{color: #00b0a5;}
+.btnStyle2{background: #00b0a5; color: #fff; padding: 3px 5px; text-align: center; vertical-align: middle; display: block; margin-top: 1em;}
+.dashboardlogin_form .not_user 
+{
+	font-family: 'ClanLF-Medium';
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: left;
+    color: #959595;
+    display: block;
+	padding: 0.5em 0;
+}
+.dashboardlogin_form .not_user a
+{
+	 color: #959595;
+}
+.dashboard_error
+{
+	font-family: 'ClanLF-Book';
+    font-size: .8em !important;
+    font-weight: normal;
+    text-align: left;
+    color:red;
+	padding: 0 !important;
+}
+
+.dashboard_foot
+{
+	position: fixed;
+	bottom: 0%;
+}
+
+
+.dashboardlogincol30 form .fieldWrapper{width:100%;height:auto;margin:0 auto 0.7em auto;text-align:left;}
+.dashboardlogincol30 form .fieldWrapper .titleFieldWrapper{width:15%;height:auto;float:left;text-align:left;margin-right:1%;}
+.dashboardlogincol30 form .fieldWrapper .titleFieldWrapper select{width:calc(100% - 2px);height:2em;border:1px solid #959595;color:#959595;}
+
+.dashboardlogincol30 form .fieldWrapper .fNameFieldWrapper, 
+.dashboardlogincol30 form .fieldWrapper .lNameFieldWrapper{width:41.5%;height:auto;float:left;text-align:left;}
+
+.dashboardlogincol30 form .fieldWrapper .fNameFieldWrapper{margin-right:1%;}
+.dashboardlogincol30 form .fieldWrapper .lNameFieldWrapper{margin-right:0;}
+
+.dashboardlogincol30 form .fieldWrapper .genderFieldWrapper{width:39%;height:auto;float:left;text-align:left;margin-right:1%;}
+.dashboardlogincol30 form .fieldWrapper .genderFieldWrapper select{width:calc(100% - 2px);height:2em;border:1px solid #959595;color:#959595;}
+
+.dashboardlogincol30 form .fieldWrapper .dobFieldWrapper{width:60%;height:auto;float:left;text-align:left;}
+
+.dashboardlogincol30 form .fieldWrapper .emailFieldWrapper,
+.dashboardlogincol30 form .fieldWrapper .phoneFieldWrapper{width:100%;height:auto;margin:0; text-align:left;}
+
+.dashboardlogincol30 form .fieldWrapper .fNameFieldWrapper input, 
+.dashboardlogincol30 form .fieldWrapper .lNameFieldWrapper input,
+.dashboardlogincol30 form .fieldWrapper .dobFieldWrapper input,
+.dashboardlogincol30 form .fieldWrapper .emailFieldWrapper input,
+.dashboardlogincol30 form .fieldWrapper .phoneFieldWrapper input{
+	width:calc(99% - 2px);height:auto;margin:0 auto;text-align:left;border:1px solid #959595;min-height: calc(2em - 2px);color:#959595;padding-left:1%;
+}
+
+.dashboardlogincol30 form .fieldWrapper .titleFieldWrapper label,
+.dashboardlogincol30 form .fieldWrapper .fNameFieldWrapper label, 
+.dashboardlogincol30 form .fieldWrapper .lNameFieldWrapper label,
+.dashboardlogincol30 form .fieldWrapper .genderFieldWrapper label,
+.dashboardlogincol30 form .fieldWrapper .dobFieldWrapper label,
+.dashboardlogincol30 form .fieldWrapper .emailFieldWrapper label,
+.dashboardlogincol30 form .fieldWrapper .phoneFieldWrapper label
+{display:block;font-family: 'ClanLF-Medium';color:#959595;text-transform:capitalize;font-size:.9em;padding-bottom:.2em;}
+
+#registerBt{background-color: #00b0a5;border: 0px;padding:0.8em 3em;font-family: 'ClanLF-Medium';font-size: 1em;font-weight: normal;color: #fff;float:left;
+text-transform: uppercase;}
+#registerBt:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+
+.dashboardlogincol30 form .fieldWrapper p.dashboard_error{visibility:hidden;}
+
+@media only screen and (max-width:1360px) 
+{
+	.dashboardlogoWrapper img {
+		width:20%;
+	}
+	.dashboardlogincol30 {
+		width: 40%;
+	}
+	.dashboard_btn {
+		padding: 0.6em 0;
+	}
+}
+@media only screen and (max-width:1280px) 
+{
+	.dashboardlogoWrapper img {
+		width:20%;
+	}
+	.dashboardlogincol30 {
+		width: 40%;
+	}
+	.dashboard_btn {
+		padding: 0.6em 0;
+	}
+}
+
+@media only screen and (max-width:1024px) 
+{
+	.dashboardlogincol30 {
+		width: 90%;
+		position:relative;
+		padding: 5%;
+	}
+	.dashboardloginWrapper {
+		background-color: #fff;
+	}
+	.dashboardlogin_form .forgot_pas {
+		padding: 0.5em 0 0.5em 0;
+		margin-right: 18%;
+	}
+	.dasboard-footer-col-50 {
+		width: 100%;
+	}
+	.dasboard_social_nw {
+		text-align: center;
+	}
+	.dasboard_copyright_menu {
+		text-align: center;
+	}
+	.dashboardlogoWrapper img {
+		width: 28%;
+	}
+	.dashboard-stickey img {
+		width: 100%;
+	}
+	.dashboard-stickey {
+		width: 7.5%;
+	}
+	
+}
+@media only screen and (max-width:800px) 
+{
+	.dashboardloginWrapper{position:relative;top:initial;padding:1em 0;}
+	.dashboard_foot{position:relative;bottom:initial;}
+	.dashboardlogincol30 form{margin:0 auto 1em auto;}
+}
+@media only screen and (max-width:660px) 
+{
+	.dashboardlogoWrapper img {
+		width: 35%;
+	}
+	
+}
+@media only screen and (max-width:480px) 
+{
+	.dashboardlogincol30 .dashboardlogin_form .dashboardinput {
+		width: calc(94% - 2px);
+	}
+	.dashboardlogincol30 .dashboardlogin_form .dashboardpassword {
+		width: calc(94% - 2px);
+	}
+	.dashboardlogin_form .forgot_pas {
+		margin-right: 1%;
+	}
+	.dasboard_footer .dashboardcenterWrapper 
+	
+	{
+		width:100%;
+	}
+	.dasboard_copyright_menu li {
+		font-size: 0.9em;
+		padding: 0.1%;
+	}
+	.dashboardlogin_form label {
+		padding: 0 0em 0.5em 0;
+	}
+	.dashboardlogoWrapper img {
+		width: 45%;
+	}
+	
+	.dashboard-stickey {
+		width: 17%;
+	}
+	
+	
+}
+@media only screen and (max-width:380px) 
+{
+	
+	.dashboardlogoWrapper img {
+		width: 60%;
+	}
+}
